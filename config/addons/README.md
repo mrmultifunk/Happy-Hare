@@ -39,7 +39,7 @@ An addon used to create purge pellets instead of/or in conjunction with using a 
 <video src="https://github.com/bombela/EjectionAssistedPurge/blob/master/doc/in_action.mp4" width=60%>
 ### Compatibility
 **MMU:** _Any_<br>
-**Printer:** Voron v2, Untested on Voron Trident
+**Printer:** Voron V2, probably Voron Trident but untested
 ### Github
 https://github.com/bombela/EjectionAssistedPurge
 ### Config
