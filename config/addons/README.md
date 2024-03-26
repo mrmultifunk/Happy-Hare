@@ -46,4 +46,8 @@ https://github.com/bombela/EjectionAssistedPurge
 1. Add `[include mmu/addons/eap.cfg]` to your `printer.cfg`
 1. Edit `eap.cfg` and `eap_hw.cfg` to work with your setup
 1. Set `variable_user_post_load_extension : "PURGE"` in `mmu_macro_vars.cfg`
-1. Optionally set `variable_user_pre_unload_extension : "PURGE_PARK"` in `mmu_macro_vars.cfg` to park the nozzle on the tray during a swap
+1. Optionally set `variable_user_pre_unload_extension : "PURGE_PARK"` in `mmu_macro_vars.cfg` to park the nozzle on the purge groove during a swap
+### Roadmap
+1. Design a tray to contain the pellets and optimally eject them from the chamber
+1. Refine the gantry mounting bracket
+1. Testing the EAP on a Trident/other printers
