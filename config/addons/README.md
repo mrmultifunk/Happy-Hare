@@ -46,4 +46,4 @@ https://github.com/bombela/EjectionAssistedPurge
 1. Add `[include mmu/addons/eap.cfg]` to your `printer.cfg`
 1. Edit `eap.cfg` and `eap_hw.cfg` to work with your setup
 1. Set `variable_user_post_load_extension : "PURGE"` in `mmu_macro_vars.cfg`
-1. Optionally set `variable_user_pre_unload_extension : "PURGE_HOME"` in `mmu_macro_vars.cfg` to park the nozzle on the tray during a swap ### This is still WIP
+1. Optionally set `variable_user_pre_unload_extension : "PURGE_PARK"` in `mmu_macro_vars.cfg` to park the nozzle on the tray during a swap ### This is still WIP
