@@ -44,7 +44,6 @@ https://github.com/Dendrowen/Blobifier
 An addon used to create purge pellets instead of/or in conjunction with using a wipe tower
 
 <img src="https://github.com/bombela/EjectionAssistedPurge/blob/master/doc/installed_closeup.jpg" width=60%>
-<video src="https://github.com/bombela/EjectionAssistedPurge/blob/master/doc/in_action.mp4" width=60%>
 
 ### Compatibility
 **MMU:** _Any_<br>
