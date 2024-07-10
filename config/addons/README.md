@@ -32,3 +32,22 @@ https://github.com/Dendrowen/Blobifier
 1. Optionally set `variable_user_pre_unload_extension : "BLOBIFIER_PARK"` in `mmu_macro_vars.cfg` to park the nozzle on the tray during a swap
 
 <hr>
+
+## ![#f03c15](/doc/f03c15.png) ![#c5f015](/doc/c5f015.png) ![#1589F0](/doc/1589F0.png) EAP
+An addon used to create purge pellets instead of/or in conjunction with using a wipe tower
+<img src="https://github.com/bombela/EjectionAssistedPurge/blob/master/doc/installed_closeup.jpg" width=60%>
+<video src="https://github.com/bombela/EjectionAssistedPurge/blob/master/doc/in_action.mp4" width=60%>
+### Compatibility
+**MMU:** _Any_<br>
+**Printer:** Voron V2, probably Voron Trident but untested
+### Github
+https://github.com/bombela/EjectionAssistedPurge
+### Config
+1. Add `[include mmu/addons/eap.cfg]` to your `printer.cfg`
+1. Edit `eap.cfg` and `eap_hw.cfg` to work with your setup
+1. Set `variable_user_post_load_extension : "PURGE"` in `mmu_macro_vars.cfg`
+1. Optionally set `variable_user_pre_unload_extension : "PURGE_PARK"` in `mmu_macro_vars.cfg` to park the nozzle on the purge groove during a swap
+### Roadmap
+1. Design a tray to contain the pellets and optimally eject them from the chamber
+1. Refine the gantry mounting bracket
+1. Testing the EAP on a Trident/other printers
