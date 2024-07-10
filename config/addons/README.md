@@ -39,10 +39,13 @@ https://github.com/Dendrowen/Blobifier
 
 <hr>
 
-## ![#f03c15](/doc/f03c15.png) ![#c5f015](/doc/c5f015.png) ![#1589F0](/doc/1589F0.png) EAP
+## ![#f03c15](https://github.com/moggieuk/Happy-Hare/wiki/resources/f03c15.png) ![#c5f015](https://github.com/moggieuk/Happy-Hare/wiki/resources/c5f015.png) ![#1589F0](https://github.com/moggieuk/Happy-Hare/wiki/resources/1589F0.png) EAP
+
 An addon used to create purge pellets instead of/or in conjunction with using a wipe tower
+
 <img src="https://github.com/bombela/EjectionAssistedPurge/blob/master/doc/installed_closeup.jpg" width=60%>
 <video src="https://github.com/bombela/EjectionAssistedPurge/blob/master/doc/in_action.mp4" width=60%>
+
 ### Compatibility
 **MMU:** _Any_<br>
 **Printer:** Voron V2, probably Voron Trident but untested
